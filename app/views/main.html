@@ -1,0 +1,85 @@
+
+<div class="row-fluid">
+  <div class="span2 menubar">
+          <ul lighter class="nav nav-list affix">
+            <li ng-repeat="section in cv.sections" ><a href="#{{slugtitle(section.title)}}" ng-click="gogo()"><i class="dominant icon-chevron-right"></i> {{section.title}}</a></li>
+          </ul>
+  </div>
+
+  <div class="span10 main">
+    <div class="row-fluid blockheader">
+      <div class="span3 blockborder color1">
+      </div>
+      <div class="span3 blockborder color2">
+      </div>
+      <div class="span3 blockborder color3">
+      </div>
+      <div class="span3 blockborder color4">
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="span12 claim">
+          <h1>{{cv.title}}</h1>
+      </div>
+    </div>
+      
+    <div class="row-fluid profile">
+      <div class="span4">
+        <div class="profilepic" ng-bind-html-unsafe="cv.gravatar()"></div>
+        <span class="vignette age" ng-bind-html-unsafe="birth()"></span>
+        <span ng-hide="true" class="vignette nationality">{{cv.nationality}}</span>
+      </div>
+      <div class="span8">
+        <div class="row-fluid">
+          <div class="span8">
+            <h2>{{cv.name}} {{cv.fname}}</h2>
+          </div>
+          <div class="span4">
+            <ul class="inline contact">
+              <li ng-repeat="contact in cv.contacts" ng-bind-html-unsafe="contactdisplay(contact)" class=""></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row-fluid">  
+          <h3>{{cv.subtitle}}</h3>
+          <p>{{cv.infos}}</p>
+        </div>
+        <div class="row-fluid">
+          <ul class="social inline">
+            <li ng-repeat="social in cv.socials" class=""><a href="{{social.url}}"><i class="icon-2x dominant  icon-{{social.type}}"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row-fluid">
+      <div class="span11 offset1">
+        <section ng-repeat="section in cv.sections" id="{{slugtitle(section.title)}}" name="{{slugtitle(section.title)}}" class="history">
+          <h2 class="dominant">{{section.title}}</h2>
+          <p>{{section.content}}</p>
+          <p>{{section.intro}}</p>
+          <ul class="list">
+            <li ng-repeat="el in section.list">
+              <div ng-bind-html-unsafe="title(el)"></div>
+              <ul class="duty">
+                <li ng-repeat="duty in el.duties">{{duty}}</li>
+              </ul>
+              <div ng-show="recommand(el)">
+                Recommand:
+                <ul>
+                  <li ng-repeat="contact in el.recommand">
+                    {{contact.title}}. {{contact.fname}} {{contact.name}} 
+                    <ul>
+                      <li ng-repeat="el in contact.contacts">
+                        {{el.type}}:{{el.value}}
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </li>
+        </ul>
+        </section>
+      </div>
+    </div>
+</div>

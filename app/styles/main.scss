@@ -1,0 +1,172 @@
+// Background RGBA
+// -------------------
+// Creates a cross-browser rgba background color.
+@mixin background-rgba($red: 0, $green: 0, $blue: 0, $alpha: 0.5){
+    background-color: rgb($red, $green, $blue);
+    background-color: rgba($red, $green, $blue, $alpha);
+    @if ($legacy-support-for-ie) {
+        @include has-layout;  
+        background-color: transparent\9; $color: rgba($red, $green, $blue, $alpha);
+        @include filter-gradient($color, $color);
+    }
+}
+
+@import "compass_twitter_bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Crete+Round);
+@import url(http://fonts.googleapis.com/css?family=Molengo);
+@import url(http://fonts.googleapis.com/css?family=Lekton);
+@import "sprites.css";
+@import "font-awesome";
+
+ul.inline,
+ol.inline {
+  margin-left: 0;
+  list-style: none;
+}
+
+ul.inline > li,
+ol.inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+h1{
+  font-family: 'Molengo', sans-serif;
+  text-align: center;
+  font-size:36px !important;
+}
+
+i.dominant{
+  color:#4C4C4C;
+}
+
+.colormain{
+  
+}
+
+a {
+  color:black;
+  text-decoration:none !important;
+}
+
+.claim{
+  margin-bottom:40px;
+}
+
+.profilepic{
+  border-radius:100%;
+  border:2px solid;
+  border-color:#000;
+  width: 200px;
+  padding: 0px;
+  margin: 0px;
+
+
+  img{
+    border-radius:100%
+  }
+}
+
+.container {
+}
+
+.hero-unit{
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.lighter-menu-active{
+  background-color:#000;
+  color:#fff;
+  text-shadow:0 1px 0 rgba(255, 255, 255, 0.5)
+}
+
+.contact i{
+  font-size:17px;
+}
+
+span.date{
+  font-family: 'Crete Round', serif;
+  font-size:25px;
+}
+
+.blockheader{
+  margin-bottom: 30px;  
+}
+
+.blockborder {
+  height:10px;
+  min-height:0px !important;
+  margin-left:0px!important;
+  width:25% !important;
+}
+
+.color1 {
+  background-color:#E7F2DF;
+}
+.color2 {
+  background-color:#69043B;
+}
+.color3 {
+  background-color:#59023B;
+}
+.color4 {
+  background-color:#231E2D;
+}
+
+.list{
+  list-style:none;
+}
+
+.main{
+  p, ul, li{
+    font-family: 'Lekton', sans-serif;
+  }
+  position:relative;
+  z-index:1;
+  h2{
+    margin-top: 0px;
+  }
+  h2.dominant{
+    border-bottom:1px solid;
+    border-color:#4C4C4C;
+  }
+  h3{
+    line-height: 26px;
+    font-style: italic;
+  }
+  section {
+    ul,p{
+      background:#fff;
+      @include background-rgba(255,255,255,0.75);
+    }
+  }
+}
+
+.profile{
+  position:relative;
+  .vignette{
+    position: absolute;
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 2px 0px;
+    margin-left: 8%;
+    width: 90px;
+    border-radius: 4px;
+  }
+  .age{
+      bottom: -2px;
+  }
+}
+
+.menubar{
+  z-index:0;
+  padding-top:140px;
+}
+
+.icon{
+  display:block;
+}

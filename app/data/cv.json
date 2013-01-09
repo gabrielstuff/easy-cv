@@ -1,0 +1,234 @@
+{
+    "cv": {
+        "email": "gabriel@soixantecircuits.fr",
+        "name": "Gabriel",
+        "fname": "Delattre",
+        "birthdate": "08/03/1984",
+        "nationality": "french",
+        "infos": "Founder, software engineer at Soixante circuits",
+        "subtitle": "Making things connected and retail more interactive",
+        "title": "Good engineer solve problems, great engineer find solutions and innovate",
+        "contacts": [
+            {
+                "type": "mobile-phone",
+                "value": "+33616381080"
+            },
+            {
+                "type": "envelope",
+                "value": "gabriel@soixantecircuits.fr"
+            },
+            {
+                "type": "external-link",
+                "value": "http://www.soixantecircuits.fr/"
+            }
+        ],
+        "socials": [
+            {
+                "type": "twitter",
+                "url": "https://twitter.com/gabrielstuff"
+            },
+            {
+                "type": "facebook",
+                "url": "https://www.facebook.com/gdelattre"
+            },
+            {
+                "type": "linkedin",
+                "url": "http://www.linkedin.com/in/gabrieldelattre"
+            },
+            {
+                "type": "github",
+                "url": "https://github.com/gabrielstuff"
+            }
+        ],
+        "sections": [
+            {
+                "title": "Few words about me",
+                "content": "I've founded Soixante circuits on march 2008. I've build this company with Emmanuel Geoffray. We create electronically devices and computer software for ad agencies, young other startups looking for innovation, artists looking for new interaction with their audience and architects. We love to start a project from the beginning to deeply understand the client issue and find the best way to solve it. Each issue got its own solution and its preferred language or framework. We do not stick to one language, even if I personally prefer C++ and Javascript.   Since 2009, I teach processing at University UPMC to undergraduate students. I also give some course at l'Ecole Nationale Supérieure de Créations industrielles (ENSCI) about prototyping with Arduino. Finnaly since 2011, I give a full course about web development and application creation at le CELSA. This give little hints about what kind of issue we, software engineer, face everyday.",
+                "intro": ""
+            },
+            {
+                "title": "Professional experience",
+                "content": "These are some chosen moment of my little career.",
+                "intro": null,
+                "list": [
+                    {
+                        "yearbegin": "2008",
+                        "at": "Soixante circuits, Paris, France",
+                        "position": "CEO",
+                        "duties": [
+                            "Running the company",
+                            "Project manager",
+                            "In charge of recruitment",
+                            "Software engineer for iOS app and C++ desktop application",
+                            "Software engineer for webapps development (HTML/PHP/CSS/Javascript)"
+                        ]
+                    },
+                    {
+                        "yearbegin": "2011",
+                        "at": "ENSCI, Paris, France",
+                        "position": "Teacher",
+                        "duties": [
+                            "Course about IHM",
+                            "Introduction to software engineering and prototype development with Arduino hardware"
+                        ],
+                        "recommand": [
+                            {
+                                "title": "Mr",
+                                "name": "Doe",
+                                "fname": "John",
+                                "contacts": [
+                                    {
+                                        "type": "url",
+                                        "value": "www.sasa.com"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "yearbegin": "2009",
+                        "yearend": "2012",
+                        "at": "UPMC, Paris, France",
+                        "position": "Teacher",
+                        "duties": [
+                            "Teaching during for practical application and theory",
+                            "Introduction to software development with Processing",
+                            "Exams writing and correction."
+                        ],
+                        "recommand": [
+                            {
+                                "title": "Mr",
+                                "name": "Doe",
+                                "fname": "John",
+                                "contacts": [
+                                    {
+                                        "type": "url",
+                                        "value": "www.sasa.com"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "yearbegin": "2007",
+                        "yearend": "2007",
+                        "at": "Shared Reality Lab, McGill, Montréal",
+                        "position": "Software engineer",
+                        "duties": [
+                            "Research and development on realtime 3D reconstruction (Visual Hull)",
+                            "C++ development with openCV and openscenegraph",
+                            "Documentation and report edition and writing"
+                        ],
+                        "recommand": [
+                            {
+                                "title": "Mr",
+                                "name": "Doe",
+                                "fname": "John",
+                                "contacts": [
+                                    {
+                                        "type": "url",
+                                        "value": "www.sasa.com"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "yearbegin": "2006",
+                        "yearend": "2006",
+                        "at": "Thales, Direction des process amont, Vélizy",
+                        "position": "Signal processing engineer",
+                        "duties": [
+                            "Conception and implementation of the first Statistical Processus Control for higherfrequencies tube",
+                            "Admin of SPC Vision software",
+                            "Trainer of the technical staff for SPC software, writing help datasheet and documentation, workflow analysis."
+                        ],
+                        "recommand": [
+                            {
+                                "title": "Mr",
+                                "name": "Jérome",
+                                "fname": "Tribout",
+                                "contacts": [
+                                    {
+                                        "type": "url",
+                                        "value": "www.sasa.com"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Skills",
+                "content": "Please find various skills that I've managed to setup during my short life.",
+                "list": [
+                    {
+                        "at": "Software engineering",
+                        "duties": [
+                            "Development of creative application ofr artists",
+                            "Design pattern conception",
+                            "Development with Cinder, OpenFrameWorks and QT",
+                            "Development in C/C++"
+                        ]
+                    },
+                    {
+                        "at": "Mobile software engineering",
+                        "duties": [
+                            "Application development for iPhone, Android and iPad",
+                            "Native development in objective-C",
+                            "Cross-device, hybrid development in javascript/HTML5/CSS3",
+                            "Full mobile development in HTML5"
+                        ]
+                    },
+                    {
+                        "at": "Project Managment",
+                        "duties": [
+                            "Project planning",
+                            "Brief traduction and explanation",
+                            "Report writing",
+                            "Budget managment",
+                            "Using tools like Merlin, Redmine, Github and more"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Language",
+                "content": "This are the language I'm fluent with and the ones that I love and like to learn",
+                "list": [
+                    {
+                        "at": "French",
+                        "duties": [
+                            "My native tongues",
+                            "love it from the bottom of my heart"
+                        ]
+                    },
+                    {
+                        "at": "English",
+                        "duties": [
+                            "Learn by the reading of tutorials and books.",
+                            "With a little help of watching series",
+                            "Finnaly a well passed TOIC"
+                        ]
+                    },
+                    {
+                        "at": "German",
+                        "duties": [
+                            "7 years sentenced",
+                            "Love it untill it broke my heart",
+                            "Would love to see it again"
+                        ]
+                    },
+                    {
+                        "at": "Chinese",
+                        "duties": [
+                            "Unknown and never learnt",
+                            "But I wish I could put some time aside to begin to learn it"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

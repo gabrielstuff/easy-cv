@@ -1,0 +1,22 @@
+.mail_black, .link_black, .phone_black{
+	background: url(sprites.png) no-repeat;
+}
+
+.mail_black{
+	background-position: -74px 0;
+	width: 32px;
+	height: 32px;
+}
+
+.link_black{
+	background-position: -37px 0;
+	width: 32px;
+	height: 32px;
+}
+
+.phone_black{
+	background-position: 0 0;
+	width: 32px;
+	height: 32px;
+}
+
